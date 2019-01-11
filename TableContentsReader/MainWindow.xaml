@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnSayHello" Content="Button" HorizontalAlignment="Left" Margin="292,128,0,0" VerticalAlignment="Top" Width="76" Height="22" Background="#FF00079B" Foreground="White" Click="BtnSayHello_Click"/>
+        <Button Content="Read File" HorizontalAlignment="Left" Margin="437,128,0,0" VerticalAlignment="Top" Width="75" Background="#FF7E0006" Foreground="#FFF3FF00" Click="BooDooGoo"/>
+
     </Grid>
 </Window>
